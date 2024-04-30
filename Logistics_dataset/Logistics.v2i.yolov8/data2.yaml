@@ -1,0 +1,33 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: 
+  - 'barcode'
+  - 'car'
+  - 'cardboard box'
+  - 'fire'
+  - 'forklift'
+  - 'freight container'
+  - 'gloves'
+  - 'helmet'
+  - 'ladder'
+  - 'license plate'
+  - 'person'
+  - 'qr code'
+  - 'road sign'
+  - 'safety vest'
+  - 'smoke'
+  - 'traffic cone'
+  - 'traffic light'
+  - 'truck'
+  - 'van'
+  - 'wood pallet'
+
+roboflow:
+  workspace: large-benchmark-datasets
+  project: logistics-sz9jr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/large-benchmark-datasets/logistics-sz9jr/dataset/2
